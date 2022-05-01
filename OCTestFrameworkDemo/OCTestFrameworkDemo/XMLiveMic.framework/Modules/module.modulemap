@@ -1,0 +1,6 @@
+framework module XMLiveMic {
+  umbrella header "XMLiveMic.h"
+
+  export *
+  module * { export * }
+}

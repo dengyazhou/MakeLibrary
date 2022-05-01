@@ -1,0 +1,6 @@
+framework module XMLiveAudio {
+  umbrella header "XMLiveAudio.h"
+
+  export *
+  module * { export * }
+}
