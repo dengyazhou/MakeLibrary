@@ -1,0 +1,995 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		713F413DB2F70041F4569E38 /* Pods_OCFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0FCCDAE8BFA98886C47A2E /* Pods_OCFramework.framework */; };
+		B6CA66DF281D77F9009D9552 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CA66DE281D77F9009D9552 /* AppDelegate.m */; };
+		B6CA66E2281D77F9009D9552 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CA66E1281D77F9009D9552 /* SceneDelegate.m */; };
+		B6CA66E5281D77F9009D9552 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CA66E4281D77F9009D9552 /* ViewController.m */; };
+		B6CA66E8281D77F9009D9552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CA66E6281D77F9009D9552 /* Main.storyboard */; };
+		B6CA66EA281D77FD009D9552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CA66E9281D77FD009D9552 /* Assets.xcassets */; };
+		B6CA66ED281D77FD009D9552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CA66EB281D77FD009D9552 /* LaunchScreen.storyboard */; };
+		B6CA66F0281D77FD009D9552 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CA66EF281D77FD009D9552 /* main.m */; };
+		B6CA66FF281D78A0009D9552 /* XMLiveAudio.docc in Sources */ = {isa = PBXBuildFile; fileRef = B6CA66FE281D789F009D9552 /* XMLiveAudio.docc */; };
+		B6CA6700281D78A0009D9552 /* XMLiveAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CA66FD281D789F009D9552 /* XMLiveAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6CA6703281D78A0009D9552 /* XMLiveAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CA66FB281D789F009D9552 /* XMLiveAudio.framework */; };
+		B6CA6704281D78A0009D9552 /* XMLiveAudio.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6CA66FB281D789F009D9552 /* XMLiveAudio.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6CA6711281D797D009D9552 /* XMMic.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CA6710281D797D009D9552 /* XMMic.m */; };
+		B6CA6712281D797D009D9552 /* XMMic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6CA670F281D797D009D9552 /* XMMic.h */; };
+		B6CA6726281D7C5F009D9552 /* XMRTCZego.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CA6724281D7C5F009D9552 /* XMRTCZego.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6CA6727281D7C5F009D9552 /* XMRTCZego.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CA6725281D7C5F009D9552 /* XMRTCZego.m */; };
+		B6CA672A281D8C27009D9552 /* XMMicRTC.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CA6729281D8C27009D9552 /* XMMicRTC.m */; };
+		B6CA672D281D8C42009D9552 /* XMMicRTMP.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CA672C281D8C42009D9552 /* XMMicRTMP.m */; };
+		B6CA6737281E3956009D9552 /* XMLiveMic.docc in Sources */ = {isa = PBXBuildFile; fileRef = B6CA6736281E3956009D9552 /* XMLiveMic.docc */; };
+		B6CA6738281E3956009D9552 /* XMLiveMic.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CA6735281E3956009D9552 /* XMLiveMic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6CA673B281E3956009D9552 /* XMLiveMic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CA6733281E3956009D9552 /* XMLiveMic.framework */; };
+		B6CA673C281E3956009D9552 /* XMLiveMic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6CA6733281E3956009D9552 /* XMLiveMic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6CA6746281E4B60009D9552 /* XMRTCAgora.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CA6744281E4B60009D9552 /* XMRTCAgora.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6CA6747281E4B60009D9552 /* XMRTCAgora.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CA6745281E4B60009D9552 /* XMRTCAgora.m */; };
+		B6CA6748281E4DE4009D9552 /* libXMMic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CA670D281D797D009D9552 /* libXMMic.a */; };
+		B6CA67DA281E6215009D9552 /* XMMicRTC.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6CA6728281D8C27009D9552 /* XMMicRTC.h */; };
+		B6CA683E281E8226009D9552 /* XMIMCore.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CA683D281E8226009D9552 /* XMIMCore.m */; };
+		B6CA683F281E8226009D9552 /* XMIMCore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6CA683C281E8226009D9552 /* XMIMCore.h */; };
+		B6CA6843281E8317009D9552 /* libXMIMCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CA683A281E8226009D9552 /* libXMIMCore.a */; };
+		B6CA6851281E869A009D9552 /* XMLiveMicService.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CA684F281E869A009D9552 /* XMLiveMicService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6CA6852281E869A009D9552 /* XMLiveMicService.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CA6850281E869A009D9552 /* XMLiveMicService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6CA6701281D78A0009D9552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6CA66D2281D77F9009D9552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6CA66FA281D789F009D9552;
+			remoteInfo = XMLiveAudio;
+		};
+		B6CA6739281E3956009D9552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6CA66D2281D77F9009D9552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6CA6732281E3956009D9552;
+			remoteInfo = XMLiveMic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6CA6708281D78A0009D9552 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B6CA6704281D78A0009D9552 /* XMLiveAudio.framework in Embed Frameworks */,
+				B6CA673C281E3956009D9552 /* XMLiveMic.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CA670B281D797D009D9552 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B6CA67DA281E6215009D9552 /* XMMicRTC.h in CopyFiles */,
+				B6CA6712281D797D009D9552 /* XMMic.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CA6838281E8226009D9552 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B6CA683F281E8226009D9552 /* XMIMCore.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5347CC1693A0C8585DF63E84 /* Pods-OCFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCFramework.debug.xcconfig"; path = "Target Support Files/Pods-OCFramework/Pods-OCFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		5E561699FB194C8AFAD49A37 /* Pods-OCFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCFramework.release.xcconfig"; path = "Target Support Files/Pods-OCFramework/Pods-OCFramework.release.xcconfig"; sourceTree = "<group>"; };
+		7A0FCCDAE8BFA98886C47A2E /* Pods_OCFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CA66DA281D77F9009D9552 /* OCFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CA66DD281D77F9009D9552 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6CA66DE281D77F9009D9552 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6CA66E0281D77F9009D9552 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B6CA66E1281D77F9009D9552 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B6CA66E3281D77F9009D9552 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6CA66E4281D77F9009D9552 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6CA66E7281D77F9009D9552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6CA66E9281D77FD009D9552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6CA66EC281D77FD009D9552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6CA66EE281D77FD009D9552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6CA66EF281D77FD009D9552 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6CA66FB281D789F009D9552 /* XMLiveAudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMLiveAudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CA66FD281D789F009D9552 /* XMLiveAudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLiveAudio.h; sourceTree = "<group>"; };
+		B6CA66FE281D789F009D9552 /* XMLiveAudio.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = XMLiveAudio.docc; sourceTree = "<group>"; };
+		B6CA670D281D797D009D9552 /* libXMMic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXMMic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CA670F281D797D009D9552 /* XMMic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMMic.h; sourceTree = "<group>"; };
+		B6CA6710281D797D009D9552 /* XMMic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMMic.m; sourceTree = "<group>"; };
+		B6CA6724281D7C5F009D9552 /* XMRTCZego.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMRTCZego.h; sourceTree = "<group>"; };
+		B6CA6725281D7C5F009D9552 /* XMRTCZego.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMRTCZego.m; sourceTree = "<group>"; };
+		B6CA6728281D8C27009D9552 /* XMMicRTC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMMicRTC.h; sourceTree = "<group>"; };
+		B6CA6729281D8C27009D9552 /* XMMicRTC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMMicRTC.m; sourceTree = "<group>"; };
+		B6CA672B281D8C42009D9552 /* XMMicRTMP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMMicRTMP.h; sourceTree = "<group>"; };
+		B6CA672C281D8C42009D9552 /* XMMicRTMP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMMicRTMP.m; sourceTree = "<group>"; };
+		B6CA6733281E3956009D9552 /* XMLiveMic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMLiveMic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CA6735281E3956009D9552 /* XMLiveMic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLiveMic.h; sourceTree = "<group>"; };
+		B6CA6736281E3956009D9552 /* XMLiveMic.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = XMLiveMic.docc; sourceTree = "<group>"; };
+		B6CA6744281E4B60009D9552 /* XMRTCAgora.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMRTCAgora.h; sourceTree = "<group>"; };
+		B6CA6745281E4B60009D9552 /* XMRTCAgora.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMRTCAgora.m; sourceTree = "<group>"; };
+		B6CA683A281E8226009D9552 /* libXMIMCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXMIMCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CA683C281E8226009D9552 /* XMIMCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMIMCore.h; sourceTree = "<group>"; };
+		B6CA683D281E8226009D9552 /* XMIMCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMIMCore.m; sourceTree = "<group>"; };
+		B6CA684F281E869A009D9552 /* XMLiveMicService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLiveMicService.h; sourceTree = "<group>"; };
+		B6CA6850281E869A009D9552 /* XMLiveMicService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLiveMicService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6CA66D7281D77F9009D9552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CA6843281E8317009D9552 /* libXMIMCore.a in Frameworks */,
+				B6CA6748281E4DE4009D9552 /* libXMMic.a in Frameworks */,
+				B6CA6703281D78A0009D9552 /* XMLiveAudio.framework in Frameworks */,
+				B6CA673B281E3956009D9552 /* XMLiveMic.framework in Frameworks */,
+				713F413DB2F70041F4569E38 /* Pods_OCFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CA66F8281D789F009D9552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CA670A281D797D009D9552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CA6730281E3956009D9552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CA6837281E8226009D9552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01BE42224A4DE9A642FE0747 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5347CC1693A0C8585DF63E84 /* Pods-OCFramework.debug.xcconfig */,
+				5E561699FB194C8AFAD49A37 /* Pods-OCFramework.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B6CA66D1281D77F9009D9552 = {
+			isa = PBXGroup;
+			children = (
+				B6CA66DC281D77F9009D9552 /* OCFramework */,
+				B6CA66FC281D789F009D9552 /* XMLiveAudio */,
+				B6CA670E281D797D009D9552 /* XMMic */,
+				B6CA6734281E3956009D9552 /* XMLiveMic */,
+				B6CA683B281E8226009D9552 /* XMIMCore */,
+				B6CA66DB281D77F9009D9552 /* Products */,
+				01BE42224A4DE9A642FE0747 /* Pods */,
+				B92B9B794E56A7C6E8183C20 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6CA66DB281D77F9009D9552 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6CA66DA281D77F9009D9552 /* OCFramework.app */,
+				B6CA66FB281D789F009D9552 /* XMLiveAudio.framework */,
+				B6CA670D281D797D009D9552 /* libXMMic.a */,
+				B6CA6733281E3956009D9552 /* XMLiveMic.framework */,
+				B6CA683A281E8226009D9552 /* libXMIMCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6CA66DC281D77F9009D9552 /* OCFramework */ = {
+			isa = PBXGroup;
+			children = (
+				B6CA66DD281D77F9009D9552 /* AppDelegate.h */,
+				B6CA66DE281D77F9009D9552 /* AppDelegate.m */,
+				B6CA66E0281D77F9009D9552 /* SceneDelegate.h */,
+				B6CA66E1281D77F9009D9552 /* SceneDelegate.m */,
+				B6CA66E3281D77F9009D9552 /* ViewController.h */,
+				B6CA66E4281D77F9009D9552 /* ViewController.m */,
+				B6CA66E6281D77F9009D9552 /* Main.storyboard */,
+				B6CA66E9281D77FD009D9552 /* Assets.xcassets */,
+				B6CA66EB281D77FD009D9552 /* LaunchScreen.storyboard */,
+				B6CA66EE281D77FD009D9552 /* Info.plist */,
+				B6CA66EF281D77FD009D9552 /* main.m */,
+			);
+			path = OCFramework;
+			sourceTree = "<group>";
+		};
+		B6CA66FC281D789F009D9552 /* XMLiveAudio */ = {
+			isa = PBXGroup;
+			children = (
+				B6CA66FD281D789F009D9552 /* XMLiveAudio.h */,
+				B6CA6724281D7C5F009D9552 /* XMRTCZego.h */,
+				B6CA6725281D7C5F009D9552 /* XMRTCZego.m */,
+				B6CA6744281E4B60009D9552 /* XMRTCAgora.h */,
+				B6CA6745281E4B60009D9552 /* XMRTCAgora.m */,
+				B6CA66FE281D789F009D9552 /* XMLiveAudio.docc */,
+			);
+			path = XMLiveAudio;
+			sourceTree = "<group>";
+		};
+		B6CA670E281D797D009D9552 /* XMMic */ = {
+			isa = PBXGroup;
+			children = (
+				B6CA670F281D797D009D9552 /* XMMic.h */,
+				B6CA6710281D797D009D9552 /* XMMic.m */,
+				B6CA6728281D8C27009D9552 /* XMMicRTC.h */,
+				B6CA6729281D8C27009D9552 /* XMMicRTC.m */,
+				B6CA672B281D8C42009D9552 /* XMMicRTMP.h */,
+				B6CA672C281D8C42009D9552 /* XMMicRTMP.m */,
+			);
+			path = XMMic;
+			sourceTree = "<group>";
+		};
+		B6CA6734281E3956009D9552 /* XMLiveMic */ = {
+			isa = PBXGroup;
+			children = (
+				B6CA6735281E3956009D9552 /* XMLiveMic.h */,
+				B6CA684F281E869A009D9552 /* XMLiveMicService.h */,
+				B6CA6850281E869A009D9552 /* XMLiveMicService.m */,
+				B6CA6736281E3956009D9552 /* XMLiveMic.docc */,
+			);
+			path = XMLiveMic;
+			sourceTree = "<group>";
+		};
+		B6CA683B281E8226009D9552 /* XMIMCore */ = {
+			isa = PBXGroup;
+			children = (
+				B6CA683C281E8226009D9552 /* XMIMCore.h */,
+				B6CA683D281E8226009D9552 /* XMIMCore.m */,
+			);
+			path = XMIMCore;
+			sourceTree = "<group>";
+		};
+		B92B9B794E56A7C6E8183C20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A0FCCDAE8BFA98886C47A2E /* Pods_OCFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B6CA66F6281D789F009D9552 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CA6726281D7C5F009D9552 /* XMRTCZego.h in Headers */,
+				B6CA6746281E4B60009D9552 /* XMRTCAgora.h in Headers */,
+				B6CA6700281D78A0009D9552 /* XMLiveAudio.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CA672E281E3956009D9552 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CA6738281E3956009D9552 /* XMLiveMic.h in Headers */,
+				B6CA6851281E869A009D9552 /* XMLiveMicService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B6CA66D9281D77F9009D9552 /* OCFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CA66F3281D77FD009D9552 /* Build configuration list for PBXNativeTarget "OCFramework" */;
+			buildPhases = (
+				04A536E51C0B13DA9E9B9F01 /* [CP] Check Pods Manifest.lock */,
+				B6CA66D6281D77F9009D9552 /* Sources */,
+				B6CA66D7281D77F9009D9552 /* Frameworks */,
+				B6CA66D8281D77F9009D9552 /* Resources */,
+				B6CA6708281D78A0009D9552 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6CA6702281D78A0009D9552 /* PBXTargetDependency */,
+				B6CA673A281E3956009D9552 /* PBXTargetDependency */,
+			);
+			name = OCFramework;
+			productName = OCFramework;
+			productReference = B6CA66DA281D77F9009D9552 /* OCFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6CA66FA281D789F009D9552 /* XMLiveAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CA6705281D78A0009D9552 /* Build configuration list for PBXNativeTarget "XMLiveAudio" */;
+			buildPhases = (
+				B6CA66F6281D789F009D9552 /* Headers */,
+				B6CA66F7281D789F009D9552 /* Sources */,
+				B6CA66F8281D789F009D9552 /* Frameworks */,
+				B6CA66F9281D789F009D9552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLiveAudio;
+			productName = XMLiveAudio;
+			productReference = B6CA66FB281D789F009D9552 /* XMLiveAudio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6CA670C281D797D009D9552 /* XMMic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CA6715281D797D009D9552 /* Build configuration list for PBXNativeTarget "XMMic" */;
+			buildPhases = (
+				B6CA6709281D797D009D9552 /* Sources */,
+				B6CA670A281D797D009D9552 /* Frameworks */,
+				B6CA670B281D797D009D9552 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMMic;
+			productName = XMMic;
+			productReference = B6CA670D281D797D009D9552 /* libXMMic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B6CA6732281E3956009D9552 /* XMLiveMic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CA673D281E3956009D9552 /* Build configuration list for PBXNativeTarget "XMLiveMic" */;
+			buildPhases = (
+				B6CA672E281E3956009D9552 /* Headers */,
+				B6CA672F281E3956009D9552 /* Sources */,
+				B6CA6730281E3956009D9552 /* Frameworks */,
+				B6CA6731281E3956009D9552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLiveMic;
+			productName = XMLiveMic;
+			productReference = B6CA6733281E3956009D9552 /* XMLiveMic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6CA6839281E8226009D9552 /* XMIMCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CA6842281E8226009D9552 /* Build configuration list for PBXNativeTarget "XMIMCore" */;
+			buildPhases = (
+				B6CA6836281E8226009D9552 /* Sources */,
+				B6CA6837281E8226009D9552 /* Frameworks */,
+				B6CA6838281E8226009D9552 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMIMCore;
+			productName = XMIMCore;
+			productReference = B6CA683A281E8226009D9552 /* libXMIMCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6CA66D2281D77F9009D9552 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B6CA66D9281D77F9009D9552 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B6CA66FA281D789F009D9552 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B6CA670C281D797D009D9552 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B6CA6732281E3956009D9552 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B6CA6839281E8226009D9552 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = B6CA66D5281D77F9009D9552 /* Build configuration list for PBXProject "OCFramework" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6CA66D1281D77F9009D9552;
+			productRefGroup = B6CA66DB281D77F9009D9552 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6CA66D9281D77F9009D9552 /* OCFramework */,
+				B6CA66FA281D789F009D9552 /* XMLiveAudio */,
+				B6CA670C281D797D009D9552 /* XMMic */,
+				B6CA6732281E3956009D9552 /* XMLiveMic */,
+				B6CA6839281E8226009D9552 /* XMIMCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6CA66D8281D77F9009D9552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CA66ED281D77FD009D9552 /* LaunchScreen.storyboard in Resources */,
+				B6CA66EA281D77FD009D9552 /* Assets.xcassets in Resources */,
+				B6CA66E8281D77F9009D9552 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CA66F9281D789F009D9552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CA6731281E3956009D9552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04A536E51C0B13DA9E9B9F01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6CA66D6281D77F9009D9552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CA66E5281D77F9009D9552 /* ViewController.m in Sources */,
+				B6CA66DF281D77F9009D9552 /* AppDelegate.m in Sources */,
+				B6CA66F0281D77FD009D9552 /* main.m in Sources */,
+				B6CA66E2281D77F9009D9552 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CA66F7281D789F009D9552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CA66FF281D78A0009D9552 /* XMLiveAudio.docc in Sources */,
+				B6CA6727281D7C5F009D9552 /* XMRTCZego.m in Sources */,
+				B6CA6747281E4B60009D9552 /* XMRTCAgora.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CA6709281D797D009D9552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CA672A281D8C27009D9552 /* XMMicRTC.m in Sources */,
+				B6CA672D281D8C42009D9552 /* XMMicRTMP.m in Sources */,
+				B6CA6711281D797D009D9552 /* XMMic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CA672F281E3956009D9552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CA6852281E869A009D9552 /* XMLiveMicService.m in Sources */,
+				B6CA6737281E3956009D9552 /* XMLiveMic.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CA6836281E8226009D9552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CA683E281E8226009D9552 /* XMIMCore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6CA6702281D78A0009D9552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6CA66FA281D789F009D9552 /* XMLiveAudio */;
+			targetProxy = B6CA6701281D78A0009D9552 /* PBXContainerItemProxy */;
+		};
+		B6CA673A281E3956009D9552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6CA6732281E3956009D9552 /* XMLiveMic */;
+			targetProxy = B6CA6739281E3956009D9552 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6CA66E6281D77F9009D9552 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6CA66E7281D77F9009D9552 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6CA66EB281D77FD009D9552 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6CA66EC281D77FD009D9552 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6CA66F1281D77FD009D9552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6CA66F2281D77FD009D9552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6CA66F4281D77FD009D9552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5347CC1693A0C8585DF63E84 /* Pods-OCFramework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM4B9EWD95;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = OCFramework/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_execute;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = xmly.OCFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6CA66F5281D77FD009D9552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E561699FB194C8AFAD49A37 /* Pods-OCFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM4B9EWD95;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = OCFramework/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_execute;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = xmly.OCFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6CA6706281D78A0009D9552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PM4B9EWD95;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_dylib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xmly.XMLiveAudio;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6CA6707281D78A0009D9552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PM4B9EWD95;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_dylib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xmly.XMLiveAudio;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6CA6713281D797D009D9552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PM4B9EWD95;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6CA6714281D797D009D9552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PM4B9EWD95;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6CA673E281E3956009D9552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PM4B9EWD95;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xmly.XMLiveMic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6CA673F281E3956009D9552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PM4B9EWD95;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xmly.XMLiveMic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6CA6840281E8226009D9552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PM4B9EWD95;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6CA6841281E8226009D9552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PM4B9EWD95;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6CA66D5281D77F9009D9552 /* Build configuration list for PBXProject "OCFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CA66F1281D77FD009D9552 /* Debug */,
+				B6CA66F2281D77FD009D9552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CA66F3281D77FD009D9552 /* Build configuration list for PBXNativeTarget "OCFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CA66F4281D77FD009D9552 /* Debug */,
+				B6CA66F5281D77FD009D9552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CA6705281D78A0009D9552 /* Build configuration list for PBXNativeTarget "XMLiveAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CA6706281D78A0009D9552 /* Debug */,
+				B6CA6707281D78A0009D9552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CA6715281D797D009D9552 /* Build configuration list for PBXNativeTarget "XMMic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CA6713281D797D009D9552 /* Debug */,
+				B6CA6714281D797D009D9552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CA673D281E3956009D9552 /* Build configuration list for PBXNativeTarget "XMLiveMic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CA673E281E3956009D9552 /* Debug */,
+				B6CA673F281E3956009D9552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CA6842281E8226009D9552 /* Build configuration list for PBXNativeTarget "XMIMCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CA6840281E8226009D9552 /* Debug */,
+				B6CA6841281E8226009D9552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6CA66D2281D77F9009D9552 /* Project object */;
+}
