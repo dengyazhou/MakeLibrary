@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		713F413DB2F70041F4569E38 /* Pods_OCFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0FCCDAE8BFA98886C47A2E /* Pods_OCFramework.framework */; };
+		937EA51028238ADA00204D29 /* Image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 937EA50F28238ADA00204D29 /* Image.bundle */; };
 		B6CA66DF281D77F9009D9552 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CA66DE281D77F9009D9552 /* AppDelegate.m */; };
 		B6CA66E2281D77F9009D9552 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CA66E1281D77F9009D9552 /* SceneDelegate.m */; };
 		B6CA66E5281D77F9009D9552 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CA66E4281D77F9009D9552 /* ViewController.m */; };
@@ -97,6 +98,7 @@
 		5347CC1693A0C8585DF63E84 /* Pods-OCFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCFramework.debug.xcconfig"; path = "Target Support Files/Pods-OCFramework/Pods-OCFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		5E561699FB194C8AFAD49A37 /* Pods-OCFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCFramework.release.xcconfig"; path = "Target Support Files/Pods-OCFramework/Pods-OCFramework.release.xcconfig"; sourceTree = "<group>"; };
 		7A0FCCDAE8BFA98886C47A2E /* Pods_OCFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		937EA50F28238ADA00204D29 /* Image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Image.bundle; sourceTree = "<group>"; };
 		B6CA66DA281D77F9009D9552 /* OCFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CA66DD281D77F9009D9552 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6CA66DE281D77F9009D9552 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 				B6CA6744281E4B60009D9552 /* XMRTCAgora.h */,
 				B6CA6745281E4B60009D9552 /* XMRTCAgora.m */,
 				B6CA66FE281D789F009D9552 /* XMLiveAudio.docc */,
+				937EA50F28238ADA00204D29 /* Image.bundle */,
 			);
 			path = XMLiveAudio;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937EA51028238ADA00204D29 /* Image.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,6 +27,14 @@
     XMRTCZego *zego = [XMRTCZego createRTC];
     [zego playSong:@"哈哈"];
     
+    NSString *bundlePath = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:@"/Frameworks/XMLiveAudio.framework/Image.bundle"];
+    NSLog(@"%@",bundlePath);
+    NSBundle *resoure_bundle = [NSBundle bundleWithPath:bundlePath];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 70, 70)];
+    imageView.image = [UIImage imageNamed:@"默认头像1" inBundle:resoure_bundle compatibleWithTraitCollection:nil];
+    [self.view addSubview:imageView];
+    
     XMMicRTC *rtc = [XMMicRTC creatMicRTC];
     [rtc playMic:@"世界"];
     

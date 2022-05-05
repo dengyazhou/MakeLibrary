@@ -35,6 +35,16 @@
     XMRTCAgora *agora = [XMRTCAgora createAgora];
     [agora playSong:@"世界"];
     
+    //3、选择New File...、选择iOS、选择Resource、选择Settings Bundle 取名随便 例如Image.bundle，资源拖进去即可
+    //需要使用bundle路径访问
+    NSString *bundlePath = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:@"/Frameworks/XMLiveAudio.framework/Image.bundle"];
+    NSLog(@"%@",bundlePath);
+    NSBundle *resoure_bundle = [NSBundle bundleWithPath:bundlePath];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 70, 70)];
+    imageView.image = [UIImage imageNamed:@"默认头像1" inBundle:resoure_bundle compatibleWithTraitCollection:nil];
+    [self.view addSubview:imageView];
+    
 #pragma mark 2、静态库
     //1、在需要使用的工程中，'Link Binary With Libraries'中，添加.a
     //2、静态库创建的文件如果需要被外部访问需要添加在Copy Files中
